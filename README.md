@@ -1,6 +1,6 @@
 # 📚 CrudSpringBibliowl
 
-Este é um projeto de CRUD de alunos com associação de livros, desenvolvido em **Spring Boot**, usando **JPA**, **MySQL**, e documentado com **Swagger**. Ele faz parte de um exercício prático para consolidar conhecimentos em API RESTful.
+Este é um projeto de CRUD, por meio da construção de API RESTFUL, com a associação entre alunos e livros, desenvolvido em **Spring Boot**, usando **JPA**, **MySQL**, e documentado com **Swagger**. 
 
 ---
 
