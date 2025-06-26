@@ -37,7 +37,7 @@ cd CrudSpringBibliowl
 ### 🛠️ Configurando o banco de dados
 No arquivo src/main/resources/application.properties, altere as seguintes configurações conforme seu ambiente:
 
-Copiar código
+
 spring.datasource.url=jdbc:mysql://localhost:3306/nomedobanco
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
@@ -47,12 +47,13 @@ spring.jpa.hibernate.ddl-auto=update
 
 ### ▶️ Executando a aplicação via bash:
 
+```bash
 ./mvnw spring-boot:run
-
+```
 ### Ou, caso esteja usando Windows:
-
+```bash
 mvn spring-boot:run
-
+```
 ### 📑 Documentação com Swagger
 Acesse a interface do Swagger UI após iniciar a aplicação:
 
