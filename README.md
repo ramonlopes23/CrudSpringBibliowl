@@ -60,26 +60,12 @@ Acesse a interface do Swagger UI após iniciar a aplicação:
 ### 🔗 http://localhost:8080/swagger-ui/index.html
 
 ### 🧪 Endpoints principais
-Método  Endpoint    Descrição
-GET	/alunos	Lista todos os alunos
-POST	/alunos	Cria um novo aluno
-PUT	/alunos/{id}	Atualiza um aluno existente
-DELETE	/alunos/{id}	Remove um aluno
+GET /alunos -Lista todos os alunos.
+POST /alunos -Cria um novo aluno.
+PUT /alunos/{id} -Atualiza um aluno existente.
+DELETE /alunos/{id} -Remove um aluno.
 
-### 📁 Estrutura de diretórios
-src/
-├── main/
-│   ├── java/com/crud/crud/
-│   │   ├── model/
-│   │   ├── repository/
-│   │   ├── controller/
-│   └── resources/
-│       └── application.properties
-└── test/
 
 ### 👤 Autores
-Ramon Lopes
-Melissa Rodrigues
-Edicledisson Santana
-Wellington Aguiar
+Ramon Lopes, Melissa Rodrigues, Edicledisson Santana e Wellington Aguiar
 
