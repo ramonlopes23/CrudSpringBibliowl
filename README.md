@@ -38,10 +38,10 @@ cd CrudSpringBibliowl
 No arquivo src/main/resources/application.properties, altere as seguintes configurações conforme seu ambiente:
 
 
-spring.datasource.url=jdbc:mysql://localhost:3306/nomedobanco
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
-spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://localhost:3306/nomedobanco  
+spring.datasource.username=seu_usuario  
+spring.datasource.password=sua_senha  
+spring.jpa.hibernate.ddl-auto=update  
 
 ### 💡 O banco de dados deve existir no MySQL antes da execução.
 
