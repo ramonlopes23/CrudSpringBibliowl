@@ -60,13 +60,25 @@ Acesse a interface do Swagger UI após iniciar a aplicação:
 ### 🔗 http://localhost:8080/swagger-ui/index.html
 
 ### 🧪 Endpoints principais
-GET /alunos -Lista todos os alunos.  
+GET /alunos            - Listam todos os alunos.  
 
-POST /alunos -Cria um novo aluno.  
+GET /livros            - Listam todos os livros.  
 
-PUT /alunos/{id} -Atualiza um aluno existente.  
 
-DELETE /alunos/{id} -Remove um aluno.
+POST /alunos           - Criam um novo aluno.  
+
+POST /livros           - Criam um novo livro.  
+
+
+PUT /alunos/{id}       - Atualizam um aluno existente.  
+
+PUT /livros/{id}       - Atualizam um livro existente.  
+
+
+DELETE /alunos/{id}    - Removem um aluno.  
+
+DELETE /livros/{id}    - Removem um livro.  
+
 
 
 ### 👤 Autores
