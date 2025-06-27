@@ -5,10 +5,13 @@ import java.util.List;
 import jakarta.annotation.Generated;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 
 @Entity
 public class Aluno {
@@ -18,7 +21,8 @@ public class Aluno {
     private Long id;
     private String nome, curso, sexo;
 
-    @OneToMany(mappedBy = "aluno", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "aluno", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JsonManagedReference
     private List<Livro> livros;
 
 

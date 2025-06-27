@@ -14,6 +14,7 @@ public class Livro {
 
     @ManyToOne
     @JoinColumn(name = "aluno_id")
+    @com.fasterxml.jackson.annotation.JsonBackReference
     private Aluno aluno;
 
     //metodos getters e setters

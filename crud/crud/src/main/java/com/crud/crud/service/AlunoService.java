@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.crud.crud.model.Aluno;
+import com.crud.crud.model.Livro;
 import com.crud.crud.repository.AlunoRepository;
 
 @Service
@@ -19,6 +20,11 @@ public class AlunoService {
     }
 
     public Aluno salvar(Aluno aluno){
+        if (aluno.getLivros() != null) {
+        for (Livro livro : aluno.getLivros()) {
+            livro.setAluno(aluno);
+        }
+    }
         return alunoRepository.save(aluno);
     }
 
