@@ -11,12 +11,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
+import org.springframework.web.bind.annotation.CrossOrigin;
 import com.crud.crud.model.Aluno;
 import com.crud.crud.service.AlunoService;
 
 
 @RestController
+@CrossOrigin(origins = "http://localhost:3000")
 public class AlunoController {
     
    
